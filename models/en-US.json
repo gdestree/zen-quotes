@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "zen quotes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewZenIntent",
+          "samples": [
+            "give me some zen",
+            "tell me some zen",
+            "what is my zen",
+            "tell me a quote",
+            "tell me a zen quote",
+            "read me a zen quote",
+            "read me a quote",
+            "what is my daily zen",
+            "what is my quote",
+            "read me a zen"
+          ]
+        }
+      ]
+    }
+  }
+}

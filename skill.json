@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Zen quotes is an application that gives you an inspirational quotes that will make you think about life.",
+          "examplePhrases": [
+            "Alexa, ask Zen Quotes to read me a zen quote.",
+            "Alexa, ask Zen Quotes what is my zen?",
+            "Alexa, start Zen Quotes."
+          ],
+          "keywords": [
+            "Zen",
+            "Quotes",
+            "Inspirational",
+            "Quote"
+          ],
+          "name": "Zen Quotes",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/adff/76600063fb144d4785e6a494b01df23c/APP_ICON?versionId=hxaYrZkSMdMgUU3tUkU4Bjtm1uQtiAUM&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1519483192&Signature=0DR9TI9xm30m7PUxFmaexOFE4jQ%3D",
+          "description": "With Amazon alex you can install the Zen Quotes skill and upon requesting you a quote you will receive one. This app is here to give you some brain food and activate some deep thinking.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/5076/9e1697d3e3124b3caa7dc11d6a7dce87/APP_ICON_LARGE?versionId=tbNq.S0wjE6EW6oZhc7t3dQZM5MvzG_p&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1519483192&Signature=4WpIC28gGfl6M5XD2kPeR0NKghw%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This was built using the Fact Sample.",
+      "category": "RELIGION_AND_SPIRITUALITY",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": ""
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.33746a79-07da-4b63-baf0-6aa5f3695c7a",
+      "was_cloned": true,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:614544700106:function:testSpaceAlexa"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
